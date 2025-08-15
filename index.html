@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Portfolio - Devendra Vishwakrma</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">D<span>.</span> V</a>
+        </div>
+        <div class="nav__menu__btn togglebar" id="menu-btn">
+             <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+      </div>
+      <ul class="nav__links togglemenu" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#project">Project</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello, I'm Devendra Vishwakrma</h4>
+        <h1>Web Designer</h1>
+
+        <p class="section__description">
+          Hello I'm Devendra Vishwakram, a passionate Web Developer.
+          <br> Currently pursuing M.C.A (Master of Computer Application)
+          <br>from Integral University (Online Degree)
+          <br><br>
+          Completed languages:<br>
+          C language, HTML, CSS
+        </p>
+
+        <div class="header__btns">
+          <button class="btn btn__primary" id="download-cv">Download CV</button>
+          <button class="btn btn__secondary">Read More</button>
+        </div>
+      </div>
+    </header>
+    
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <div class="p__img"><img src="assets/about.jpg" alt="my image"></div>
+      </div>
+      
+
+      <div class="about__content about__text">
+        <h4>Let's Introduce About Myself</h4>
+        <p class="section__description">
+          Hello, I'm Devendra Vishwakram, a passionate Web Developer. With a keen eye for detail and a flair
+          for creativity,
+          <span>I bring ideas to life in the digital realm.</span> My work is a
+          fusion of user-centric design and aesthetic innovation, creating
+          engaging and memorable interactions.
+        </p>
+
+        <h1>Skills</h1>
+        <div class="about__progress">
+          <h5>Html</h5>
+          <div class="about__progressbar" data-progress="95"><span></span></div>
+          <h5>CSS</h5>
+          <div class="about__progressbar" data-progress="75"><span></span></div>
+          <h5>JavaScript</h5>
+          <div class="about__progressbar" data-progress="75"><span></span></div>
+          <h5>C language</h5>
+          <div class="about__progressbar" data-progress="60"><span></span></div>
+          <h5>Ms Office</h5>
+          <div class="about__progressbar" data-progress="70"><span></span></div>
+          <h5>TallyErp9</h5>
+          <div class="about__progressbar" data-progress="50"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="back__Qulification">
+      <h2 class="section__header">My Qualifications</h2>
+      <p class="section__description">
+        My qualifications reflect a blend of academic excellence and practical
+        experience, equipping me with the skills to excel in the dynamic world of
+        design and development.
+        Combined with a passion for continuous learning, my qualifications
+        extend beyond academia, encompassing hands-on projects and a commitment
+        to staying at the forefront of design trends.
+      </p>
+    </div>
+    
+    <section class="section__container resume__container" id="resume">
+      <div class="resume__tabs">
+        <div class="resume__tablist">
+          <a class="btn active" data-tab="1" href="#cv">Education</a>
+        </div>
+        <div class="resume__tabpanel">
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's Degree in Art</h4>
+              <p class="section__description">University Name : Deen Dayal Upadhyaya Gorakhpur University</p>
+              <p class="section__description">
+                I completed my Bachelor of Arts and then chose to focus on skill development and career opportunities in web design.              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Intermediate </h4>
+              <p class="section__description">Schllo Name : D.N.S.S Intermediate collage Pathardewa Deoria</p>
+              <p class="section__description">
+                During my school years, I was an average student academically, but highly active in sports like chess, cricket, and football. My involvement in various games taught me teamwork, discipline, and focus—skills that now help me in my creative and collaborative work as a web designer.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Certification of Web Development</h4>
+              <p class="section__description">
+                Istutute Name : IIJT Institute of Technology
+              </p>
+              <p class="section__description">
+                "A certification in Web Development highlights my dedication to bridging the gap between creative design and functional, user-friendly websites."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container Project__container" id="project">
+      <h2 class="section__header">Simple projects use html css</h2>
+      <div class="porject__grid">
+        <div class="project__one box">
+          <div class="p__img">💻</div>
+          <h3 class="project__title">Project Ultraedit Clone</h3>
+          <p class="project__dec">Description: When I make this project so i fill this is very hard but when I created completer then i say its very easy.</p>
+          <a href="#" class="project__button">View Project</a>
+        </div>
+        <div class="project__two box">
+          <div class="p__img">🛒</div>
+          <h3 class="project__title">E-Shopping Gkp</h3>
+          <p class="project__dec">
+            This project focuses on creating a user-friendly online shopping experience, featuring intuitive navigation and a responsive design to enhance customer engagement.
+          </p>
+          <a href="#" class="project__button">View Project</a>
+        </div>
+        <div class="project__tree box">
+          <div class="p__img">🔒</div>
+          <h3 class="project__title">Password Manager</h3>
+          <p class="project__dec">
+            This project focuses on creating a secure password management system, featuring encrypted storage and intuitive interface for managing multiple passwords safely.
+          </p>
+          <a href="#" class="project__button">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <h2 class="section__header">Hello Says</h2>
+        <p class="section__description">
+          Welcome to my personal blog where I share insights, tips, and experiences in the world of design and development.
+        </p>
+        <div class="footer__grid">
+          <div class="footer__content">
+            <h4>Devendra Vishwakrma</h4>
+            <p>
+              Explore more of my work, connect with me on social media, or drop
+              a message.
+            </p>
+            <p>
+              Let's continue the design conversation and embark on new creative
+              journeys together.
+            </p>
+            <p>Thank you for visiting!</p>
+            <div class="footer__socials">
+              <a href="https://youtube.com/@d_v_gaming3218?si=CT3l37-mvQIUEQau">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="white" fill="none">
+                    <path d="M12 20.5C13.8097 20.5 15.5451 20.3212 17.1534 19.9934C19.1623 19.5839 20.1668 19.3791 21.0834 18.2006C22 17.0221 22 15.6693 22 12.9635V11.0365C22 8.33073 22 6.97787 21.0834 5.79937C20.1668 4.62088 19.1623 4.41613 17.1534 4.00662C15.5451 3.67877 13.8097 3.5 12 3.5C10.1903 3.5 8.45489 3.67877 6.84656 4.00662C4.83766 4.41613 3.83321 4.62088 2.9166 5.79937C2 6.97787 2 8.33073 2 11.0365V12.9635C2 15.6693 2 17.0221 2.9166 18.2006C3.83321 19.3791 4.83766 19.5839 6.84656 19.9934C8.45489 20.3212 10.1903 20.5 12 20.5Z" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M15.9621 12.3129C15.8137 12.9187 15.0241 13.3538 13.4449 14.2241C11.7272 15.1705 10.8684 15.6438 10.1728 15.4615C9.9372 15.3997 9.7202 15.2911 9.53799 15.1438C9 14.7089 9 13.8059 9 12C9 10.1941 9 9.29112 9.53799 8.85618C9.7202 8.70886 9.9372 8.60029 10.1728 8.53854C10.8684 8.35621 11.7272 8.82945 13.4449 9.77593C15.0241 10.6462 15.8137 11.0813 15.9621 11.6871C16.0126 11.8933 16.0126 12.1067 15.9621 12.3129Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="https://github.com/Devendra12vi">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="white" fill="none">
+                    <path d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/Devendra12vi">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="white" fill="none">
+                    <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                    <path d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M17.5078 6.5L17.4988 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer__form">
+            <form action="post">
+              <div class="input__row">
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Your Email" />
+              </div>
+              <textarea placeholder="Your Message"></textarea>
+              <button class="btn btn__primary" href="#">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- back to home icon start form hear -->
+      <div class="con">
+        <div class="footer-social">
+            <a href="#"><i class="social-icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" color="#f84c61" fill="none">
+    <path d="M12 4L12 20" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M16.9998 8.99996C16.9998 8.99996 13.3174 4.00001 11.9998 4C10.6822 3.99999 6.99982 9 6.99982 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg></i>
+        </div>
+      </div> 
+      <div class="footer__bar">
+        Copyright © 2025 Devendra Vishwakrma. All rights reserved.
+      </div>
+    </footer>
+     
+    <script src="script.js"></script>
+</body>
+</html>
